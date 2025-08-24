@@ -58,11 +58,11 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/download.svg", sizes: "any" },
+      { url: "/download.svg", type: "any" },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180" },
+      { url: "/download.svg", sizes: "180x180" },
     ],
     other: [
       {

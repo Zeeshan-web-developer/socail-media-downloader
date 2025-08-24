@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="url(#grad)"></circle>
+
+  <!-- Download arrow -->
+  <path d="M32 16v22" stroke="white" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M22 28l10 10 10-10" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Small base line -->
+  <line x1="20" y1="48" x2="44" y2="48" stroke="white" stroke-width="4" stroke-linecap="round"></line>
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"></stop> <!-- indigo-500 -->
+      <stop offset="1" stop-color="#EC4899"></stop> <!-- pink-500 -->
+    </linearGradient>
+  </defs>
+</svg>
